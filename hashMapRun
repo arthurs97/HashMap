@@ -1,0 +1,7 @@
+#!/bin/bash
+
+g++ -o runTests tests.cpp --std=c++14
+./runTests
+
+# g++ -g -o runTests tests.cpp --std=c++14
+# valgrind -v --tool=memcheck --leak-check=full --show-reachable=yes ./runTests
